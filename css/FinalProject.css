@@ -4,7 +4,7 @@ header{
 	height: auto;
 	text-align: center;
 	text-transform: uppercase;
-	background-image: url(https://github.com/thatlearninguy/FinalProjectCSS/blob/main/images/flywheel.jpg);
+	background-image: url(https://raw.githubusercontent.com/thatlearninguy/FinalProjectCSS/main/images/flywheel.jpg);
 	background-size: cover;
 	background-color: #d3d3d3;
 }
