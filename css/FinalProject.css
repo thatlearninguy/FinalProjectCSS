@@ -1,6 +1,6 @@
 header{
 	display: inline-block;
-	width: 100%;
+	width: 80em;
 	height: auto;
 	text-align: center;
 	text-transform: uppercase;
@@ -10,8 +10,9 @@ header{
 }
 
 body{
-	padding: 10px;
+	padding: 1%;
 	margin: 1%;
+	width: 80em;
 }
 
 h1{
@@ -48,7 +49,7 @@ nav a.active{
 
 .left{
 	display: inline-block;
-	width: 200px;
+	width: 20em;
 	height: 100vh;
 	background-color: #777613 ;
 	float:left;
@@ -60,14 +61,65 @@ img{
 	height: auto;
 	border-style: solid;
 	border-color: #000000;
-	margin: 30px 20px;
+	margin: 20px 30px;
 
 }
 
 .right{
 	display: inline-block;
 	width: 60%;
-	font-size: 100%;
+	font-size: 110%;
 	font-weight: 450;
 	padding: 10px;
+}
+
+
+table{
+	display: flex;
+	justify-content: center;	/*centered the table with this*/
+	width: 50em;
+	font-family: Arial, Verdana, Tahoma, sans-serif;
+	font-weight: bold;
+}
+
+
+tr{
+	opacity: 0.7;
+}
+
+tr:hover{
+	opacity: 1;
+}
+
+th{
+	background-color: #e4f5d4;
+	background:-webkit-linear-gradient(#929b4a, #9cbf5c);
+	background:-moz-linear-gradient(#929b4a, #9cbf5c);
+	background:-o-linear-gradient(#929b4a, #9cbf5c);
+	background:linear-gradient(#929b4a, #9cbf5c);
+	color: #ffffff;
+	padding: 15px;
+	border-style: solid;
+	border-color: #000000;
+	border-radius: 5px 5px 0 0;
+	border-width: 0px 0px 3px 0px;
+	text-shadow: 2px 2px 4px black;
+}
+
+th:first-child{
+	text-align: left;
+}
+td:first-child{
+	text-align: left;
+	background-color: #e4f5d4;
+	padding: 15px;
+	color: #555555;
+}
+
+td:nth-child(2),
+td:nth-child(3){
+	text-align: center;
+	background-color: #e4f5d4;
+	padding: 15px;
+	color: #555555;
 }
